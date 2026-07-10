@@ -9,7 +9,7 @@ public:
             low = max(low,w[i]);
             high+=w[i];
         }
-        long ans =high;
+        int ans =high;
             while(low<=high){
              mid = low+(high-low)/2;
              
