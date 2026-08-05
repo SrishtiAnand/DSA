@@ -20,7 +20,8 @@ public:
     }
 
     int longestPalindromeSubseq(string s) {
+        int n = s.size();
         memset(dp, -1, sizeof(dp));
-        return f(s, 0, s.size() - 1);
+        return f(s, 0, n - 1);
     }
 };
